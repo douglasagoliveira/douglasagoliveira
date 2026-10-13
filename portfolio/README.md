@@ -18,3 +18,15 @@ python3 portfolio/build_portfolio.py
 ```
 
 Para editar textos, altere as chamadas `text(...)` em `build_portfolio.py` e rode o script novamente.
+
+## Versões
+
+- **Estilo Suíço (16:9):** `Portfolio Douglas de Oliveira - Swiss 16x9.pdf`, gerado por `build_portfolio.py`.
+- **Estilo da capa (16:9):** `Portfolio Douglas de Oliveira - Estilo Capa 16x9.pdf`, gerado por `build_portfolio_cover_style.py`. Usa fundo azul com degradê, colagem tingida, luz à direita, retrato com brilho e tipografia Montserrat (`fonts/`, licença SIL OFL em `fonts/OFL-Montserrat-LICENSE.txt`).
+
+Para gerar a versão da capa:
+
+```bash
+pip install reportlab pillow numpy
+python3 portfolio/build_portfolio_cover_style.py
+```
